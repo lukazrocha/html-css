@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+            <input name="nome" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha</label>
+            <input name="senha" type="password" />
+        </div>
+        <br>
+        <div>
+            <label for="curso">Selecione o curso</label>
+            <select name="curso" id="curso">
+                <option value="WFS">Web Full Stack</option>
+                <option value="WFR">Web Front-End e React</option>
+                <option value="WBE">Web Back-End</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="info">Fale sobre você</label><br>
+            <textarea name="info" id="info" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="experiencia">Selecione sua Experiência</label><br>
+            <input type="radio" name="experiencia" id="1ano">1 ano
+            <input type="radio" name="experiencia" id="2a3anos">2 a 3 anos
+            <input type="radio" name="experiencia" id="4mais">4 anos ou mais
+        </div>
+        <br>
+        <div>
+            <input name="limpar" type="reset" value="Limpar">
+            <input name="enviar" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
