@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        td, th {
+            text-align: center;
+            color: #FF563A;
+            border: 1px solid #AAA;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Produto X</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, explicabo obcaecati. 
+    Vero vitae sit voluptatibus facilis dolorem doloribus consequuntur alias eaque, repudiandae 
+    nesciunt, placeat labore quibusdam harum, vel unde optio!</p>
+
+    <table class="tabela-produtos" >
+        <thead style="background-color: #AAA;">
+            <tr>
+                <th style="background-color: #FFF;" rowspan="2"></th>
+                <th colspan="2">Produto X</th>
+                <th colspan="2" rowspan="2">Concorrente 1</th>
+                <th colspan="2" rowspan="2">Concorrente 2</th>
+            </tr>
+            <tr>
+                <th>Grátis</th>
+                <th>Premium</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 1</td>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="2">X</td>
+                <td colspan="2">X</td>
+            </tr>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 2</td>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 3</td>
+                <td></td>
+                <td>X</td>
+                <td colspan="2">X</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 4</td>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="2">X</td>
+                <td colspan="2">X</td>
+            </tr>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 5</td>
+                <td></td>
+                <td>X</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td style="background-color: #AAA;">Recurso 6</td>
+                <td></td>
+                <td>X</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
