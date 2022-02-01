@@ -1,0 +1,131 @@
+.body-cinza {
+    background-color: #ccc;
+}
+.body-azul {
+    background-color: rgb(169, 217, 245);;
+}
+.body-verde {
+    background-color: rgb(149, 236, 186);
+}
+.body-amarela {
+    background-color: rgb(255, 251, 145);
+}
+.container {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(131, 129, 128);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-azul {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(73, 184, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-verde {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(69, 228, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-amarela {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: rgb(245, 242, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.link-cinza {
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(146, 146, 146);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.link-cinza a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.link-azul {
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(73, 184, 248);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);   
+}
+
+.link-azul a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.link-verde {
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(69, 228, 135);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.link-verde a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.link-amarela {
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(245, 242, 62);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.link-amarela a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
