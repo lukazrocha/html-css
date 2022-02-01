@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07 - Imagens com base na tela</title>
+</head>
+<body>
+    <h3>Redimensionamento de imagens com base no tamanho da tela</h3>
+    <picture>
+        <source media="(max-width: 550px)" srcset="pp.jpg" type="image/jpeg">
+        <source media="(max-width: 750px)" srcset="p.jpg" type="image/jpeg">
+        <source media="(max-width: 950px)" srcset="m.jpg" type="image/jpeg">
+        <img src="g.jpg" type="image/jpeg">
+    </picture>
+</body>
+</html>
