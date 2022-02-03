@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    margin-top: 30px;
+    width: 616px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:#CCCCCC;
+    padding: 5px;
+}
+
+.v1, .v2, .v3, .v4 {
+    width: 25%;
+    height: 25%;
+    display: inline;
+}
+
+.iframe {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10%;
+}
