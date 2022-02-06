@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #132e4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #3D3D3D;
+  background-image: linear-gradient(90deg, #FDFDFD, #DEDEDE);
+  padding: 8px 15px 8px 15px;
+  border-radius: 25px;
+}

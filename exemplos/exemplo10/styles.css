@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: 50% 50%; */
+
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 0.5em;
+}
+
+.noticia {
+    background-color: #ddd;
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 10px;
+}
