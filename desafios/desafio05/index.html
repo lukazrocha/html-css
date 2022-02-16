@@ -1,79 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet"> 
-    <title>Lukaz Rocha</title>
-    <script src="https://kit.fontawesome.com/7b34679ab3.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <div class="logo">LKZ</div>
-        <nav>
-          <a href="#sobre">Sobre</a>
-          <a>Projetos</a>
-          <a>Contato</a>
-        </nav>
-    </header>
-    <hr>
-    <section class=sobre id="sobre">
-        <div class="avatar">
-          <img src="https://raw.githubusercontent.com/lukazrocha/html-css/main/desafios/desafio05/LUK.jpg" alt="Foto de Lukaz Rocha - selfie no espelho" />
-        </div>
-      
-        <div class="info">
-          <h2>LukazRocha</h2>
-          <p>
-            Técnico em Desenvolvimento de Software pelo Instituto Federal do Piauí - IFPI<br>
-            Bacharel em Ciência da Computação pela Universidade Estadual do Piauí - UESPI<br>
-            Pós-Graduando em Arquitetura de Sistemas de Informação pela Faculdade Focus/CENES
-          </p>
-        </div>
-    </section>  
-    <hr>
-
-    <section class="projetos" id="projetos">
-        Em construção
-    </section>
-
-    <hr>
-    <section class="contato" id="contato">
-        <div class="h2">
-           <h2>Contato</h2> 
-            <h2>Contato</h2>
-        </div>
-        
-        <div class="grid">
-            <div class="form">
-                <form>
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id=""></textarea>
-                </form>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Lukaz Rocha - Portfólio</title>
+        <script
+            src="https://kit.fontawesome.com/7b34679ab3.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Portfólio</div>
+            <nav>
+                <a href="#sobre">Sobre Mim</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </header>
+        <section class="banner" id="banner">
+            <div class="info">
+                <h4>Olá, eu sou o<br />Lukaz Rocha :)</h4>
+                <p>Desenvolvedor Web Full-Stack</p>
+                <div class="flex">
+                    <div class="btn-download">
+                        <a href="cv.pdf">Download CV</a>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="#contato">Entre em Contato</a>
+                    </div>
+                </div>
             </div>
-            
-            <div class="social">
-                <ul>
-                    <li><span class="fab fa-facebook"></span><a href="https://www.facebook.com/LukazRocha" target="_blank">Facebook</a></li>
-                    <li><span class="fab fa-twitter"></span><a href="https://www.twitter.com/LukazRocha" target="_blank">Twitter</a></li>
-                    <li><span class="fab fa-instagram"></span><a href="https://www.instagram.com/lukazrocha_" target="_blank">Instagram</a></li>
-                    <li><span class="fab fa-linkedin"></span><a href="https://www.linkedin.com/in/LukazRocha" target="_blank">Linkedin</a></li>
-                    <li><span class="fab fa-github"></span><a href="https://www.github.com/lukazrocha" target="_blank">Github</a></li>       
-                </ul>
+
+            <div class="avatar">
+                <img
+                    src="images/lukaz.jpeg"
+                    alt="Foto de Lukaz Rocha - selfie no espelho"
+                />
             </div>
-        </div>
-        
-        
-    </section>
-    
-</body>
+        </section>
+        <section class="sobre">
+            <div class="center">
+                <h4>Sobre Mim</h4>
+                <p>
+                    Técnico em Desenvolvimento de Software pelo Instituto Federal do Piauí - IFPI<br>
+                    Bacharel em Ciência da Computação pela Universidade Estadual do Piauí - UESPI<br>
+                    Pós-Graduando em Arquitetura de Sistemas de Informação pela Faculdade Focus/CENES
+                </p>
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <h2>Projetos</h2>
+            <div class="container">
+                <div class="proj1">Projeto 01</div>
+                <div class="proj2">Projeto 01</div>
+                <div class="proj3">Projeto 01</div>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="h2">
+                <h2>Contato</h2>
+                <h2>Minhas Redes Sociais</h2>
+            </div>
+
+            <div class="grid">
+                <div class="form">
+                    <form>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" />
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id=""></textarea>
+                    </form>
+                </div>
+
+                <div class="social">
+                    <ul>
+                        <li>
+                            <span class="fab fa-facebook"></span
+                            ><a
+                                href="https://www.facebook.com/LukazRocha"
+                                target="_blank"
+                                >Facebook</a
+                            >
+                        </li>
+                        <li>
+                            <span class="fab fa-twitter"></span
+                            ><a
+                                href="https://www.twitter.com/LukazRocha"
+                                target="_blank"
+                                >Twitter</a
+                            >
+                        </li>
+                        <li>
+                            <span class="fab fa-instagram"></span
+                            ><a
+                                href="https://www.instagram.com/lukazrocha_"
+                                target="_blank"
+                                >Instagram</a
+                            >
+                        </li>
+                        <li>
+                            <span class="fab fa-linkedin"></span
+                            ><a
+                                href="https://www.linkedin.com/in/LukazRocha"
+                                target="_blank"
+                                >Linkedin</a
+                            >
+                        </li>
+                        <li>
+                            <span class="fab fa-github"></span
+                            ><a
+                                href="https://www.github.com/lukazrocha"
+                                target="_blank"
+                                >Github</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
