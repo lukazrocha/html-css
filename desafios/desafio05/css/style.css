@@ -182,14 +182,28 @@ i {
 .item-social {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.item-social .title {
+    color: var(--white);
 }
 
 .img-social {
     width: 62px;
     height: 62px;
     background-color: var(--gray-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.img-social i {
+    font-size: 30px;
+    color: var(--orange);
+    margin: 0 auto;
 }
 
 .projetos {
@@ -232,7 +246,7 @@ i {
     margin-bottom: 25px;
 }
 
-.title {
+.proj-title {
     font-size: 18px;
     font-weight: 500;
     color: var(--orange)
